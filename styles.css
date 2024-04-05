@@ -1,0 +1,145 @@
+body{
+    background-image: url(images/bg-image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+}
+h1{
+    font-size: 3.4rem;
+}
+.s-title{
+    font-size: 1.5rem;
+}
+header{
+    text-align: center;
+    padding: 2% 30%;
+}
+main{
+    padding: 0% 2%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    margin: 0% 22% 5%;
+}
+
+#form{
+    padding: 2% 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+input{
+    border-radius: 15px;
+    height: 50px;
+    width: 96%;
+    border-style: none;
+    margin: 1% 0% 3%;
+    padding: 1%;
+}
+select{
+    border-radius: 15px;
+    height: 50px;
+    width: 98%;
+    border-style: none;
+    margin: 1% 0% 3%;
+    font-size: medium;
+    padding: 3%;
+    padding-right: 25px; /* Ajusta este valor según sea necesario */
+    -webkit-appearance: none; /* Para quitar la flecha en navegadores basados en WebKit como Chrome y Safari */
+    -moz-appearance: none; /* Para quitar la flecha en navegadores basados en Gecko como Firefox */
+    appearance: none; /* Para quitar la flecha en navegadores que siguen los estándares */
+    background-image: url('images/Expand_down.svg'); /* Agrega la imagen de la flecha aquí */
+    background-position: right 1% center; /* Alinea la imagen de la flecha a la derecha */
+    background-repeat: no-repeat;
+}
+textarea{
+    width: 95%;
+    height: 200px;
+    resize: none;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 2%;
+}
+button{
+    margin: 2% 0%;
+    width: 99%;
+    padding: 3%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4036A9;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#size{
+    font-weight: bold;
+}
+.f-icon{
+    margin: 10px;
+}
+
+#subject{
+    font-weight: bold;
+}
+
+@media (max-width: 1024px){
+    main{
+        margin: 0% 2% 2%;
+    }
+
+    h1{
+        font-size: 2.3rem;
+    }
+
+    .s-title{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 640px){
+    main{
+        margin: 0% 2% 2%;
+    }
+
+    h1{
+        font-size: 2.6rem;
+    }
+
+    .s-title{
+        font-size: 1.1rem;
+    }
+
+    header{
+        padding: 2% 16%;
+    }
+    #form{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    input{
+        width: 97%;
+    }
+
+    select{
+        width: 99%;
+        height: 65px;
+    }
+    textarea{
+        width: 86%;
+        height: 200px;
+        resize: none;
+        border-radius: 15px;
+        font-size: 15px;
+        padding: 2%;
+        margin: 4%;
+    }
+    .lblmsg{
+        margin-left: 21px;
+    }
+    button{
+        width: 90%;
+        margin: 0% 4% 8%;
+    }
+}
+

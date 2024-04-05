@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Developer Starter - Edgar Alvaro</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="any"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap">
+
+</head>
+<body>
+    <img class="f-icon" src="images/contact-form-icon.svg" alt="form-icon">
+    <header>
+        <h1>Interested in our business pricing?</h1>
+        <p class="s-title">Fill out the form to view details and we’ll contact you as soon as possible.</p>
+    </header>
+    <main>
+        <div id="container">
+            <div id="form">
+            <div class="l1">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" required placeholder="  Ethan Johnson"/>
+
+            <br>
+
+            <label for="size">Company Size</label><br>
+            <select name="size" id="size">
+                <option value="0-5">0-5 employees</option>
+                <option value="6-20">6-20 employees</option>
+                <option value="20-50">20-50 employees</option> 
+                <option value="50-100">50-100 employees</option>
+            </select>
+        </div>
+        <div class="l2">
+            <label for="email">Company Email</label><br>
+            <input type="email" id="email" required placeholder="  ethan@johnson.com"/>
+
+            <br>
+
+            <label for="subject">Subject</label><br>
+            <select name="subject" id="subject">
+                <option value="lpage">Building Landing pages</option>
+                <option value="design">UX /UI Design Services</option>
+                <option value="dev">Web Development Services</option>
+            </select>
+        </div>
+    </div>
+    <label class="lblmsg" for="message">Message</label><br>
+    <textarea id="message"></textarea><br>
+    <button>Contact Sales</button>
+    </div>
+    </main>
+</body>
+</html>
